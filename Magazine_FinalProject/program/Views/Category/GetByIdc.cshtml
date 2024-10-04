@@ -1,0 +1,60 @@
+﻿@using program.Models.Entities
+@model Category
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card mb-3 shadow-lg" style="max-width: 800px; border-radius: 15px;">
+        <div class="row g-0">
+            <div class="col-md-12 d-flex align-items-center justify-content-center bg-light">
+                <div class="card-body text-center">
+                    <h1 class="card-title" style="color: #0d98ba;">@Model.CategoryName</h1>
+                    <p class="text-muted mb-3"><strong>Creation Date:</strong> @Model.CategoryDate</p>
+                    <p class="text-muted mb-3"><strong>Number of Posts:</strong> @Model.posts.Count</p>
+                    <p class="text-muted mb-3"><strong>Number of Users:</strong> @Model.users.Count</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container d-flex justify-content-center mt-3">
+    <a asp-action="Edit" asp-controller="Category" asp-route-id="@Model.CategoryId" class="btn btn-success mx-2" style="width: 15vw; border-radius: 5px;">Edit Category</a>
+</div>
+
+<style>
+    body {
+        background-color: #f5f7fa;
+    }
+
+    .card-title {
+        font-weight: bold;
+        font-size: 2rem;
+        color: #d9534f;
+    }
+
+    .text-muted {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success {
+        background-color: #457b9d; /* Blue-green */
+        color: white;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #1d3557; /* Darker shade on hover */
+        }
+    .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 2rem;
+    }
+</style>

@@ -1,0 +1,96 @@
+﻿@using program.Models.Entities
+@model List<User>
+<div class="container" style="margin-top: 10vh">
+    <div class="text-center mb-5">
+        <h1 class="display-4 font-weight-bold" style="color:#0d98ba">Meet Our Authors</h1>
+        <p class="lead text-muted">Explore the profiles of our amazing authors. Click on any profile to view more details.</p>
+    </div>
+    <div class="row">
+        @foreach (var i in Model)
+        {
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card testimonial-card h-100">
+                    <div class="card-up aqua-gradient"></div>
+                    <div class="avatar mx-auto white">
+                        <img src="~/images/@i.UserImage" class="rounded-circle img-fluid" alt="user avatar" style="width: 120px; height: 120px; object-fit: cover;">
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title font-weight-bold">@i.UserName</h4>
+                        <a asp-action="GetById" asp-controller="User" asp-route-id="@i.UserId" class="btn btn-success mt-3" style="width: 12vw">
+                            View Details
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    <br />
+    <div class="text-center">
+        <a asp-action="Create" asp-controller="User" class="btn btn-success mt-3" style="width: 20vw">
+            Add new author
+        </a>
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #eee;
+    }
+
+    .testimonial-card .card-up {
+        height: 120px;
+        overflow: hidden;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+    }
+
+    .aqua-gradient {
+        background: linear-gradient(40deg, #90ee90, #0d98ba) !important;
+    }
+
+    .testimonial-card .avatar {
+        width: 120px; /* Fixed width for avatar */
+        height: 120px; /* Fixed height for avatar */
+        margin-top: -60px;
+        overflow: hidden;
+        border: 5px solid #fff;
+        border-radius: 50%;
+    }
+
+    .card-body .btn-success {
+        background-color: #0d98ba;
+        color: white; /* Text color */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px; /* Makes the button rounded */
+    }
+
+        .card-body .btn-success:hover {
+            background-color: #355C7D;
+            border: none;
+            border-radius: 50px; /* Maintain rounded corners on hover */
+        }
+
+    .btn-success {
+        background-color: transparent; /* Transparent background for outline */
+        border: 2px solid #0d98ba; /* Border color */
+        color: #0d98ba; /* Text color */
+        padding: 10px 20px;
+        border-radius: 50px; /* Makes the button rounded */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #355C7D; /* Filled background on hover */
+            color: white; /* Change text color on hover */
+            border: 2px solid #355C7D; /* Border color matches hover background */
+            border-radius: 50px; /* Maintain rounded corners */
+        }
+
+    /* Additional styles for card width */
+    .testimonial-card {
+        width: 90%; /* Adjust this percentage as needed for width */
+        max-width: 350px; /* Optional: Set a max-width for larger screens */
+        margin: auto; /* Center the card */
+    }
+</style>

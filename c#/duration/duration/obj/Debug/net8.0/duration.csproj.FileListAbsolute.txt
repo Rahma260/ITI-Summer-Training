@@ -1,0 +1,14 @@
+C:\Users\20114\Desktop\ITI\duration\duration\bin\Debug\net8.0\duration.exe
+C:\Users\20114\Desktop\ITI\duration\duration\bin\Debug\net8.0\duration.deps.json
+C:\Users\20114\Desktop\ITI\duration\duration\bin\Debug\net8.0\duration.runtimeconfig.json
+C:\Users\20114\Desktop\ITI\duration\duration\bin\Debug\net8.0\duration.dll
+C:\Users\20114\Desktop\ITI\duration\duration\bin\Debug\net8.0\duration.pdb
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.AssemblyInfoInputs.cache
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.AssemblyInfo.cs
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.csproj.CoreCompileInputs.cache
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.dll
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\refint\duration.dll
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.pdb
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\duration.genruntimeconfig.cache
+C:\Users\20114\Desktop\ITI\duration\duration\obj\Debug\net8.0\ref\duration.dll

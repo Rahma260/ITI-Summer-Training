@@ -1,0 +1,373 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\program.bundle.scp.css",
+      "PackagePath": "staticwebassets\\program.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\css\\bootstrap.min (1).css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min (1).css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\11.png",
+      "PackagePath": "staticwebassets\\images\\11.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\22.png",
+      "PackagePath": "staticwebassets\\images\\22.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\33.png",
+      "PackagePath": "staticwebassets\\images\\33.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\44.png",
+      "PackagePath": "staticwebassets\\images\\44.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\55.png",
+      "PackagePath": "staticwebassets\\images\\55.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\66.png",
+      "PackagePath": "staticwebassets\\images\\66.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\77.png",
+      "PackagePath": "staticwebassets\\images\\77.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\88.png",
+      "PackagePath": "staticwebassets\\images\\88.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\99.webp",
+      "PackagePath": "staticwebassets\\images\\99.webp"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\Background.jpg",
+      "PackagePath": "staticwebassets\\images\\Background.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\Background2.png",
+      "PackagePath": "staticwebassets\\images\\Background2.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\Background3.jpg",
+      "PackagePath": "staticwebassets\\images\\Background3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\Background4.jpg",
+      "PackagePath": "staticwebassets\\images\\Background4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\Background5.jpg",
+      "PackagePath": "staticwebassets\\images\\Background5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\accident.webp",
+      "PackagePath": "staticwebassets\\images\\accident.webp"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\business.webp",
+      "PackagePath": "staticwebassets\\images\\business.webp"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\entertainment.webp",
+      "PackagePath": "staticwebassets\\images\\entertainment.webp"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\foreign.jpg",
+      "PackagePath": "staticwebassets\\images\\foreign.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\maher.jpg",
+      "PackagePath": "staticwebassets\\images\\maher.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\news1.jpg",
+      "PackagePath": "staticwebassets\\images\\news1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\news2.png",
+      "PackagePath": "staticwebassets\\images\\news2.png"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\news3.jpg",
+      "PackagePath": "staticwebassets\\images\\news3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\sports2.jpg",
+      "PackagePath": "staticwebassets\\images\\sports2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\sportsnews.jpg",
+      "PackagePath": "staticwebassets\\images\\sportsnews.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\temperature.jpg",
+      "PackagePath": "staticwebassets\\images\\temperature.jpg"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\images\\tv.webp",
+      "PackagePath": "staticwebassets\\images\\tv.webp"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\20114\\Desktop\\rahma's courses\\ITI\\MVC\\Magazine_FinalProject\\program\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.program.props",
+      "PackagePath": "build\\program.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.program.props",
+      "PackagePath": "buildMultiTargeting\\program.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.program.props",
+      "PackagePath": "buildTransitive\\program.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.program.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

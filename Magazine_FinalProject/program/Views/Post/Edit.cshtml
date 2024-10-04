@@ -1,0 +1,132 @@
+﻿ @using program.Models.Entities
+@model Post
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edit Post</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/program.styles.css" asp-append-version="true" />
+        <style >
+        body {
+            /* Set a background color or image */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed; /* Updated image URL */
+            background-size: cover; /* Cover the entire page */
+            color: #333; /* Default text color */
+        }
+
+        /* Full viewport background */
+        .background {
+            position: fixed; /* Fixed position to cover entire viewport */
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Send it to the back */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed; /* Background image */
+            background-size: cover; /* Cover the entire area */
+            filter: blur(8px); /* Blur effect */
+        }
+
+        .card {
+            border: 1px solid #0d98ba; /* Border color with some transparency */
+            background-color: rgba(255, 255, 255, 0.5); /* More transparent card background */
+            backdrop-filter: blur(10px); /* Optional: Increase blur effect on the card background */
+        }
+
+        .form-control:focus {
+            border-color: #dc3545; /* Focus border matches the danger theme */
+            box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25); /* Focus shadow effect */
+        }
+
+        .alert {
+            display: none; /* Initially hidden */
+        }
+
+        .btn-success {
+            background-color: transparent; /* Transparent background for outline */
+            border: 2px solid #0d98ba; /* Border color */
+            color: #0d98ba; /* Text color */
+            padding: 10px 20px;
+            border-radius: 50px; /* Makes the button rounded */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .btn-success:hover {
+                background-color: #355C7D; /* Filled background on hover */
+                color: white; /* Change text color on hover */
+                border: 2px solid #355C7D; /* Border color matches hover background */
+                border-radius: 50px; /* Maintain rounded corners */
+            }
+    </style>    
+</head>
+<body>
+    <div class="background"></div> <!-- Background div with blur -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="card shadow-lg p-4" style="width: 60%;">
+            <h1 class="text-center mb-4" style="color:#0d98ba">Edit News</h1>
+            <form method="post" asp-action="Edit" asp-controller="Post" asp-route-id="@Model.PostId">
+                <fieldset>
+                    @if (ViewData.ModelState.IsValid == false)
+                    {
+                        <div asp-validation-summary="All" class="alert alert-danger"></div>
+                    }
+                    <div class="mb-4">
+                        <label asp-for="PostTitle" class="form-label small text-muted">Title</label>
+                        <input type="text" class="form-control" asp-for="PostTitle" placeholder="Enter post title" />
+                        <span asp-validation-for="PostTitle" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="PostDate" class="form-label small text-muted">Creation Date</label>
+                        <input type="date" class="form-control" asp-for="PostDate" />
+                        <span asp-validation-for="PostDate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserId" class="form-label small text-muted">Author</label>
+                        <select class="form-select" asp-for="UserId" asp-items="@(new SelectList(ViewBag.User, "UserId", "UserName"))">
+                            <option value="">-- Select Author --</option>
+                        </select>
+                        <span asp-validation-for="UserId" class="text-danger small"></span>
+                    </div> 
+                    
+
+                    <div>
+                        <label asp-for="PostBody" class="form-label mt-4">Body</label>
+                        <textarea class="form-control" rows="3" asp-for="PostBody"></textarea>
+                        <span asp-validation-for="PostBody" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-4">
+                        <label asp-for="PostImage" class="form-label mt-4">Image</label>
+                        <input class="form-control" type="file" asp-for="PostImage" />
+                        <span asp-validation-for="PostImage" class="text-danger small"></span>
+                    </div>
+
+                     <div class="mb-3">
+                        <label asp-for="CategoryId" class="form-label small text-muted">Category</label>
+                        <select class="form-select" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Category, "CategoryId", "CategoryName"))">
+                            <option value="">-- Select Category --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger small"></span>
+                    </div> 
+                    
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success btn-block">Edit news</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+</body>
+</html>
+
+ 

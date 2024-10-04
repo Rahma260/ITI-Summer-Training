@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20114\\Desktop\\ITI\\Linq\\Linq_lab_Day2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ED42FF-0DFC-4C87-88D2-563664177D3A}|program\\program.csproj|c:\\users\\20114\\desktop\\iti\\linq\\linq_lab_day2\\program\\program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C5ED42FF-0DFC-4C87-88D2-563664177D3A}|program\\program.csproj|solutionrelative:program\\program.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5ED42FF-0DFC-4C87-88D2-563664177D3A}|program\\program.csproj|c:\\users\\20114\\desktop\\iti\\linq\\linq_lab_day2\\program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5ED42FF-0DFC-4C87-88D2-563664177D3A}|program\\program.csproj|solutionrelative:program\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "program",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\Linq\\Linq_lab_Day2\\program\\program.csproj",
+              "RelativeDocumentMoniker": "program\\program.csproj",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\Linq\\Linq_lab_Day2\\program\\program.csproj",
+              "RelativeToolTip": "program\\program.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-15T09:50:06.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\Linq\\Linq_lab_Day2\\program\\Program.cs",
+              "RelativeDocumentMoniker": "program\\Program.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\Linq\\Linq_lab_Day2\\program\\Program.cs",
+              "RelativeToolTip": "program\\Program.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAJIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T18:34:06.987Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

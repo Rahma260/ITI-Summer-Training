@@ -1,0 +1,6 @@
+﻿Build started at 4:46 PM...
+1>------ Build started: Project: EFDay1, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>EFDay1 -> C:\Users\20114\Desktop\ITI\EF\EFDay1_SESSION - Copy\EFDay1\bin\Debug\net8.0\EFDay1.dll
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 4:46 PM and took 00.635 seconds ==========

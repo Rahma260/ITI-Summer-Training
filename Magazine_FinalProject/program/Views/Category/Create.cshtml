@@ -1,0 +1,107 @@
+﻿@using program.Models.Entities
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Category
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Category</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/program.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            /* Set a background color or image */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire page */
+            color: #333; /* Default text color */
+        }
+
+        /* Full viewport background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Send it to the back */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire area */
+            filter: blur(8px); /* Blur effect */
+        }
+
+        .card {
+            border: 1px solid rgba(0, 123, 255, 0.7); /* Border color with transparency */
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent card background */
+            backdrop-filter: blur(10px); /* Blur effect on the card background */
+        }
+
+        .form-control:focus {
+            border-color: #007bff; /* Focus border matches primary theme */
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow effect */
+        }
+
+        .alert {
+            display: none; /* Initially hidden */
+        }
+
+        .btn-success {
+            background-color: transparent; /* Transparent background for outline */
+            border: 2px solid #0d98ba; /* Border color */
+            color: #0d98ba; /* Text color */
+            padding: 10px 20px;
+            border-radius: 50px; /* Makes the button rounded */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .btn-success:hover {
+                background-color: #355C7D; /* Filled background on hover */
+                color: white; /* Change text color on hover */
+                border: 2px solid #355C7D; /* Border color matches hover background */
+                border-radius: 50px; /* Maintain rounded corners */
+            }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div> <!-- Background div with blur -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="card shadow-lg p-4" style="width: 60%; background-color: rgba(255, 255, 255, 0.7);">
+            <h1 class="text-center mb-4" style="color:#0d98ba">Add New Category</h1>
+            <form method="post" asp-action="Create" asp-controller="Category">
+                <fieldset>
+                    <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="CategoryName" class="form-label small text-muted">Name</label>
+                        <input type="text" class="form-control" asp-for="CategoryName" placeholder="Enter category name">
+                        <span asp-validation-for="CategoryName" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="CategoryDate" class="form-label small text-muted">Creation Date</label>
+                        <input type="date" class="form-control" asp-for="CategoryDate" placeholder="Enter category creation date">
+                        <span asp-validation-for="CategoryDate" class="text-danger small"></span>
+                    </div>
+
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success btn-block">Create Category</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+</body>
+
+</html>

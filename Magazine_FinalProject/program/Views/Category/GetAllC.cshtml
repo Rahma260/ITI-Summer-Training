@@ -1,0 +1,78 @@
+﻿@using program.Models.Entities
+@model List<Category>
+<div class="container">
+    <!-- Introductory Text -->
+    <div class="row">
+        <div class="col-12 text-center my-5">
+            <h1 style="color: #0d98ba;">Welcome to the Category Dashboard</h1>
+            <p class="lead">Explore our various categories and learn more about the number of posts and authors associated with each one.</p>
+        </div>
+    </div>
+
+    <!-- Cards Section -->
+    <div class="row">
+        @foreach (var i in Model)
+        {
+            <div class="col-lg-3 col-md-6 mb-4">
+                <!-- Adjusts to 4 columns in large screens, 2 columns in medium screens -->
+                <div class="card border-primary h-100" style="border-color: #0d98ba;">
+                    <div class="card-header text-white text-center" style="background-color: #0d98ba;">
+                        <h5>@i.CategoryName</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title text-muted">@i.CategoryDate</p>
+                        <p class="card-text">Number of posts: @i.posts.Count</p>
+                        <p class="card-text">Number of authors: @i.users.Count</p>
+                    </div>
+                    <div class="card-footer text-center">
+                        <a asp-action="GetByIdc" asp-controller="Category" asp-route-id="@i.CategoryId" class="btn btn-success" style="width: 12vw">
+                            View
+                        </a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div class="text-center">
+    <a asp-action="Create" asp-controller="Category" class="btn btn-primary" style="width: 20vw">
+        Add new category
+    </a>
+</div>
+
+<!-- Custom Styles -->
+<style>
+    .btn-primary {
+        background-color: #0d98ba;
+        color: white; /* Text color */
+        border: none;
+        padding: 10px 20px;
+        border-radius: 50px; /* Makes the button rounded */
+    }
+
+        .btn-primary:hover {
+            background-color: #355C7D;
+            border: none;
+            border-radius: 50px; /* Maintain rounded corners on hover */
+        }
+
+
+    .btn-success {
+        background-color: transparent; /* Transparent background for outline */
+        border: 2px solid #0d98ba; /* Border color */
+        color: #0d98ba; /* Text color */
+        padding: 10px 20px;
+        border-radius: 50px; /* Makes the button rounded */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+        .btn-success:hover {
+            background-color: #355C7D; /* Filled background on hover */
+            color: white; /* Change text color on hover */
+            border: 2px solid #355C7D; /* Border color matches hover background */
+            border-radius: 50px; /* Maintain rounded corners */
+        }
+
+
+</style>

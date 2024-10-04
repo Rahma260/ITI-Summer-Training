@@ -1,0 +1,11 @@
+﻿Build started at 2:30 PM...
+1>------ Build started: Project: program, Configuration: Debug Any CPU ------
+1>Skipping analyzers to speed up the build. You can execute 'Build' or 'Rebuild' command to run analyzers.
+1>C:\Users\20114\Desktop\rahma's courses\ITI\MVC\MVC_Day2\program\Migrations\20240920153110_createdb.cs(8,26,8,34): warning CS8981: The type name 'createdb' only contains lower-cased ascii characters. Such names may become reserved for the language.
+1>C:\Users\20114\Desktop\rahma's courses\ITI\MVC\MVC_Day2\program\Migrations\20240920153110_createdb.Designer.cs(16,19,16,27): warning CS8981: The type name 'createdb' only contains lower-cased ascii characters. Such names may become reserved for the language.
+1>C:\Users\20114\Desktop\rahma's courses\ITI\MVC\MVC_Day2\program\Migrations\20240924083919_done.cs(8,26,8,30): warning CS8981: The type name 'done' only contains lower-cased ascii characters. Such names may become reserved for the language.
+1>C:\Users\20114\Desktop\rahma's courses\ITI\MVC\MVC_Day2\program\Migrations\20240924083919_done.Designer.cs(16,19,16,23): warning CS8981: The type name 'done' only contains lower-cased ascii characters. Such names may become reserved for the language.
+1>program -> C:\Users\20114\Desktop\rahma's courses\ITI\MVC\MVC_Day2\program\bin\Debug\net8.0\program.dll
+1>Done building project "program.csproj".
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+========== Build completed at 2:30 PM and took 01.374 seconds ==========

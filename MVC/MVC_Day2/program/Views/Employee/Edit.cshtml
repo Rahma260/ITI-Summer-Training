@@ -1,0 +1,77 @@
+﻿@using program.Models.Entities
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model Employee
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="width: 60%; background-color: #f8f9fa;">
+        <h1 class="text-center text-primary mb-4">Edit Employee</h1>
+        <form method="post" asp-action="Edit" asp-controller="Employee" asp-route-id="@Model.EmployeeId">
+            <fieldset>
+                <div asp-validation-summary="All" class="alert alert-danger" style="display: none;"></div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeName" class="form-label small text-muted">Employee Name</label>
+                    <input type="text" class="form-control" asp-for="EmployeeName" placeholder="Enter employee's name" />
+                    <span asp-validation-for="EmployeeName" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeAge" class="form-label small text-muted">Employee Age</label>
+                    <input type="text" class="form-control" asp-for="EmployeeAge" placeholder="Enter employee's age" />
+                    <span asp-validation-for="EmployeeAge" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeSalary" class="form-label small text-muted">Employee Salary</label>
+                    <input type="text" class="form-control" asp-for="EmployeeSalary" placeholder="Enter employee's salary" />
+                    <span asp-validation-for="EmployeeSalary" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeAddress" class="form-label small text-muted">Employee Address</label>
+                    <input type="text" class="form-control" asp-for="EmployeeAddress" placeholder="Enter employee's address" />
+                    <span asp-validation-for="EmployeeAddress" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeEmail" class="form-label small text-muted">Employee Email</label>
+                    <input type="text" class="form-control" asp-for="EmployeeEmail" placeholder="Enter employee's email" />
+                    <span asp-validation-for="EmployeeEmail" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeePhone" class="form-label small text-muted">Employee Phone</label>
+                    <input type="text" class="form-control" asp-for="EmployeePhone" placeholder="Enter employee's phone number" />
+                    <span asp-validation-for="EmployeePhone" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeImage" class="form-label small text-muted">Employee Image</label>
+                    <input type="text" class="form-control" asp-for="EmployeeImage" placeholder="Enter employee's image URL" />
+                    <span asp-validation-for="EmployeeImage" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="CompanyId" class="form-label small text-muted">Company Name</label>
+                    <select class="form-select" asp-for="CompanyId" asp-items="@(new SelectList(ViewBag.Company, "CompanyId", "CompanyName"))">
+                        <option value="">-- Select Company --</option>
+                    </select>
+                    <span asp-validation-for="CompanyId" class="text-danger small"></span>
+                </div>
+
+                <div class="d-grid gap-2">
+                    <input type="submit" value="Update Employee" class="btn btn-primary btn-block" />
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

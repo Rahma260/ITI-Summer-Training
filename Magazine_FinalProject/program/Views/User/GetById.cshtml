@@ -1,0 +1,88 @@
+﻿@using program.Models.Entities
+@model User
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card mb-3 shadow-lg" style="max-width: 800px; border-radius: 15px;">
+        <div class="row g-0">
+            <div class="col-md-4 d-flex align-items-center justify-content-center" style="background-color: #a8dadc; border-top-left-radius: 15px; border-bottom-left-radius: 15px;">
+                <img src="~/images/@Model.UserImage" class="img-fluid rounded-start" alt="User Image" style="max-width: 85%; height: auto; border-radius: 50%;" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title" style="color:#0d98ba">@Model.UserName</h2>
+                    <p class="card-text"><strong>Age:</strong> @Model.UserAge</p>
+                    <p class="card-text"><strong>Address:</strong> @Model.UserAddresss</p>
+                    <p class="card-text"><strong>Salary:</strong> @Model.UserSalary</p>
+                    <p class="card-text"><strong>Gender:</strong> @Model.UserGender</p>
+                    <p class="card-text"><strong>Birth Date:</strong> @Model.UserDate</p>
+                    <h6 class="card-title text-muted"><strong>Department:</strong> @Model.category.CategoryName</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container d-flex justify-content-center mt-3">
+    <a asp-action="Edit" asp-controller="User" asp-route-id="@Model.UserId" class="btn btn-success mx-2" style="width: 9vw; border-radius: 5px;"> Edit </a>
+
+    <form asp-action="Delete" asp-controller="User" method="post" onsubmit="return confirm('Are you sure you want to delete that user?');" style="display:inline;">
+        <input type="hidden" name="id" value="@Model.UserId" />
+        <button type="submit" class="btn btn-outline-success mx-2" style="width: 9vw; border-radius: 5px;">Delete</button>
+    </form>
+</div>
+
+<style>
+    body {
+        background-color: #f1faee; /* Light blue-green background */
+    }
+
+    .card-title {
+        font-weight: bold;
+        color: #1d3557; /* Darker blue-green for title */
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success {
+        background-color: #457b9d; /* Blue-green */
+        color: white;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #1d3557; /* Darker shade on hover */
+        }
+
+    .btn-outline-success {
+        border: 2px solid #457b9d; /* Blue-green outline */
+        color: #457b9d;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #457b9d;
+            color: white;
+        }
+
+    .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-body {
+        padding: 2rem; /* Spacious feel */
+    }
+
+    .testimonial-card .avatar {
+        width: 130px; /* Larger avatar */
+        margin-top: -65px;
+        overflow: hidden;
+        border: 5px solid #fff;
+        border-radius: 50%;
+    }
+</style>
+
+

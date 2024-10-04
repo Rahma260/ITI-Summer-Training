@@ -1,0 +1,95 @@
+﻿@model Post
+@using program.Models.Entities
+@{
+}
+
+<div class="container py-3">
+    <div class="card">
+        <div class="row">
+            <div class="col-md-12 px-3">
+                <!-- Full width -->
+                <div class="card-block px-6">
+                    <h4 class="card-title">@Model.PostTitle</h4>
+                    <small class="text-muted">
+                        <span style="margin-right: 10px;">
+                            <i class="far fa-user"></i> by: @Model.PostUser.UserName
+                        </span>
+                        <span>
+                            <i class="fas fa-calendar-alt"></i> @Model.PostDate
+                        </span>
+                    </small>
+                    <img class="card-img-top" src="~/images/@Model.PostImage" alt="Post image" style="width: 100%; max-height: 300px; object-fit: contain; margin-bottom: 1rem;"> <!-- Adjusted image style -->
+                    <p class="card-text">
+                        @Model.PostBody
+                    </p>
+                    <br>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of card -->
+</div>
+
+<div style="margin-top: 5vh; margin-left: 30vw">
+    <a asp-action="Edit" asp-controller="Post" class="mt-auto btn btn-success" asp-route-id="@Model.PostId" style="height: 9.7vh">Edit news</a>
+    <form asp-action="Delete" asp-controller="Post" method="post" onsubmit="return confirm('Are you sure you want to delete that post?');" style="display:inline;">
+        <input type="hidden" name="id" value="@Model.PostId" />
+        <button type="submit" class="btn btn-outline-success mx-2" style="width: 11vw; border-radius: 5px;">Delete</button>
+    </form>
+</div>
+
+<style>
+    body {
+        background-color: #eee;
+    }
+
+    .card-block {
+        font-size: 1em;
+        position: relative;
+        margin: 0;
+        padding: 1em;
+        border: none;
+        border-top: 1px solid rgba(34, 36, 38, .1);
+        box-shadow: none;
+    }
+
+    .card {
+        font-size: 1em;
+        overflow: hidden;
+        border: none;
+        border-radius: .28571429rem;
+        box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5;
+        margin-top: 20px;
+    }
+
+    .btn {
+        margin-top: auto;
+    }
+
+    .btn {
+        font-size: 1rem;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-success {
+        background-color: #457b9d; /* Blue-green */
+        color: white;
+        border: none;
+    }
+
+        .btn-success:hover {
+            background-color: #1d3557; /* Darker shade on hover */
+        }
+
+    .btn-outline-success {
+        border: 2px solid #457b9d; /* Blue-green outline */
+        color: #457b9d;
+    }
+
+        .btn-outline-success:hover {
+            background-color: #457b9d;
+            color: white;
+        }
+</style>

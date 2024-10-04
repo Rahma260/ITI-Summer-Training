@@ -1,0 +1,36 @@
+﻿@using program.Models.Entities
+@model List<Company>
+
+<table class="table table-hover" style="margin-top:5vh">
+    <thead class="table-primary">
+        <tr style="color : black">
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Type</th>
+            <th scope="col">Start Date</th>
+            <th scope="col">Address</th>
+            <th scope="col"></th>
+
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var i in Model)
+      {
+            <tr class="table-light">
+            
+            <td>@i.CompanyId</td>
+            <td>@i.CompanyName</td>
+            <td>@i.CompanyType</td>
+            <td>@i.CompanyStartDate</td>
+            <td>@i.CompanyAddress</td>
+
+
+                <td>
+                    <a href="/Company/GetByIdC/@i.CompanyId" style="font-weight: bold; color: dodgerblue; text-decoration: none;">Details</a>
+                </td>
+        </tr>
+      }
+      </tbody>
+</table>
+<a href="/Company/Create" class="btn btn-primary" style="margin-left: 35vw"> Add Company </a>
+

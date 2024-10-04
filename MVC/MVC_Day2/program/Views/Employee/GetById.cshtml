@@ -1,0 +1,31 @@
+﻿@using program.Models.Entities
+@model Employee
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card mb-3 shadow" style="max-width: 640px">
+        <div class="row g-0">
+            <div class="col-md-4 d-flex align-items-center justify-content-center bg-light">
+                <img src="~/images/@Model.EmployeeImage" class="img-fluid rounded-start" alt="Employee Image" style="max-width: 80%; height: auto;" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h2 class="card-title">@Model.EmployeeName</h2>
+                    <p class="card-text"><strong>Age:</strong> @Model.EmployeeAge</p>
+                    <p class="card-text"><strong>Salary:</strong> @Model.EmployeeSalary</p>
+                    <p class="card-text"><strong>Email:</strong> @Model.EmployeeEmail</p>
+                    <p class="card-text"><strong>Phone Number:</strong> @Model.EmployeePhone</p>
+                    <h6 class="card-title text-muted"><strong>Company:</strong> @Model.Company.CompanyName</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container d-flex justify-content-center mt-3">
+    <a asp-action="Edit" asp-controller="Employee" asp-route-id="@Model.EmployeeId" class="btn btn-outline-primary mx-2" style="width:6.5vw"> Edit </a>
+
+    <form asp-action="Delete" asp-controller="Employee" method="post" onsubmit="return confirm('Are you sure you want to delete that employee?');" style="display:inline;">
+        <input type="hidden" name="id" value="@Model.EmployeeId" />
+        <button type="submit" class="btn btn-outline-danger mx-2">Delete</button>
+    </form>
+</div>

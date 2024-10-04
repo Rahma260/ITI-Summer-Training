@@ -1,0 +1,71 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <!-- Hero Section -->
+    <div class="jumbotron text-center" style="background-color: #0d98ba; color: white; border-radius: 15px; padding: 30px;">
+        <h1 class="display-4">Welcome to Our News Portal</h1>
+        <p class="lead">Stay informed with the latest news from our various departments and top authors.</p>
+        <hr class="my-4">
+        <p>Discover a wide range of news, explore content from different departments, and get to know the authors behind each story.</p>
+    </div>
+
+    <!-- Features Section -->
+    <div class="row text-center mt-5">
+        <div class="col-md-4">
+            <div class="card border-primary h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Explore Departments</h5>
+                    <p class="card-text">Browse through various departments, from technology to lifestyle, and stay updated on what's happening in your favorite areas.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Meet the Authors</h5>
+                    <p class="card-text">Discover insightful news written by top authors. Learn more about their expertise and the stories they cover.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-primary h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Latest News</h5>
+                    <p class="card-text">Get real-time updates on the latest news. Stay ahead with our continuously updated articles from all departments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <div class="text-center mt-5">
+        <a asp-action="GetAll" asp-controller="Post" class="btn btn-outline-primary" style="border-radius: 50px; padding: 10px 20px; width: 20vw;">
+            Explore News
+        </a>
+    </div>
+</div>
+
+<style>
+    .jumbotron {
+        background: linear-gradient(135deg, #2ecc71 0%, #3498db 50%, #1abc9c 100%); /* Green to blue gradient */
+        color: white;
+    }
+
+    .card-title {
+        color: #0d98ba;
+        font-weight: bold;
+    }
+
+    .btn-outline-primary {
+        color: #0d98ba;
+        border-color: #0d98ba;
+    }
+
+        .btn-outline-primary:hover {
+            background-color: #0d98ba;
+            color: white;
+        }
+</style>
+

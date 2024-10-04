@@ -1,0 +1,14 @@
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\bin\Debug\net8.0\lab_day7.exe
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\bin\Debug\net8.0\lab_day7.deps.json
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\bin\Debug\net8.0\lab_day7.runtimeconfig.json
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\bin\Debug\net8.0\lab_day7.dll
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\bin\Debug\net8.0\lab_day7.pdb
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.AssemblyInfoInputs.cache
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.AssemblyInfo.cs
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.csproj.CoreCompileInputs.cache
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.dll
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\refint\lab_day7.dll
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.pdb
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\lab_day7.genruntimeconfig.cache
+C:\Users\20114\Desktop\ITI\C#\lab_day7\lab_day7\obj\Debug\net8.0\ref\lab_day7.dll

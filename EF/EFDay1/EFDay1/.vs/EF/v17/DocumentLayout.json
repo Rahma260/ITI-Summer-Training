@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|c:\\users\\20114\\desktop\\iti\\ef\\efday1\\efday1\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|solutionrelative:entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|c:\\users\\20114\\desktop\\iti\\ef\\efday1\\efday1\\entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|solutionrelative:entities\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|c:\\users\\20114\\desktop\\iti\\ef\\efday1\\efday1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|c:\\users\\20114\\desktop\\iti\\ef\\efday1\\efday1\\contexts\\studdept_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|solutionrelative:contexts\\studdept_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|c:\\users\\20114\\desktop\\iti\\ef\\efday1\\efday1\\entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37B2B7DD-3CC2-447E-9135-0B6665748C64}|EFDay1.csproj|solutionrelative:entities\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Person.cs",
+              "RelativeDocumentMoniker": "Entities\\Person.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Person.cs",
+              "RelativeToolTip": "Entities\\Person.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T17:38:42.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "studdept_context.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Contexts\\studdept_context.cs",
+              "RelativeDocumentMoniker": "Contexts\\studdept_context.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Contexts\\studdept_context.cs",
+              "RelativeToolTip": "Contexts\\studdept_context.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADwvxEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:53:40.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:53:31.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Department.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Department.cs",
+              "RelativeDocumentMoniker": "Entities\\Department.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Department.cs",
+              "RelativeToolTip": "Entities\\Department.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:53:31.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\20114\\Desktop\\ITI\\EF\\EFDay1\\EFDay1\\Entities\\Student.cs",
+              "RelativeToolTip": "Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T11:53:31.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

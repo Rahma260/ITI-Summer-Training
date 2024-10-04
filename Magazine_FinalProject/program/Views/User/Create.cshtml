@@ -1,0 +1,134 @@
+﻿@using program.Models.Entities
+
+@model User
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Category</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/program.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            /* Set a background color or image */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire page */
+            color: #333; /* Default text color */
+        }
+
+        /* Full viewport background */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* Send it to the back */
+            background: url('@Url.Content("~/images/Background2.png")') no-repeat center center fixed;
+            background-size: cover; /* Cover the entire area */
+            filter: blur(8px); /* Blur effect */
+        }
+
+        .card {
+            border: 1px solid rgba(0, 123, 255, 0.7); /* Border color with transparency */
+            background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent card background */
+            backdrop-filter: blur(10px); /* Blur effect on the card background */
+        }
+
+        .form-control:focus {
+            border-color: #007bff; /* Focus border matches primary theme */
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Focus shadow effect */
+        }
+
+        .alert {
+            display: none; /* Initially hidden */
+        }
+
+        .btn-success {
+            background-color: transparent; /* Transparent background for outline */
+            border: 2px solid #0d98ba; /* Border color */
+            color: #0d98ba; /* Text color */
+            padding: 10px 20px;
+            border-radius: 50px; /* Makes the button rounded */
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+            .btn-success:hover {
+                background-color: #355C7D; /* Filled background on hover */
+                color: white; /* Change text color on hover */
+                border: 2px solid #355C7D; /* Border color matches hover background */
+                border-radius: 50px; /* Maintain rounded corners */
+            }
+    </style>
+</head>
+
+<body>
+    <div class="background"></div> <!-- Background div with blur -->
+
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="card shadow-lg p-4" style="width: 60%; background-color: rgba(255, 255, 255, 0.7);">
+            <h1 class="text-center mb-4" style="color:#0d98ba">Add New Author</h1>
+            <form method="post" asp-action="Create" asp-controller="User">
+                <fieldset>
+                    <div asp-validation-summary="All" class="alert alert-danger"></div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserName" class="form-label small text-muted">Name</label>
+                        <input type="text" class="form-control" asp-for="UserName" placeholder="Enter name">
+                        <span asp-validation-for="UserName" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="UserAge" class="form-label small text-muted">Age</label>
+                        <input type="text" class="form-control" asp-for="UserAge" placeholder="Enter age">
+                        <span asp-validation-for="UserAge" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="UserAddresss" class="form-label small text-muted">Address</label>
+                        <input type="text" class="form-control" asp-for="UserAddresss" placeholder="Enter address">
+                        <span asp-validation-for="UserAddresss" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="UserSalary" class="form-label small text-muted">Salary</label>
+                        <input type="text" class="form-control" asp-for="UserSalary" placeholder="Enter salary">
+                        <span asp-validation-for="UserSalary" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="UserGender" class="form-label small text-muted">Gender</label>
+                        <input type="text" class="form-control" asp-for="UserGender" placeholder="Enter gender">
+                        <span asp-validation-for="UserGender" class="text-danger small"></span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label asp-for="UserDate" class="form-label small text-muted">Birth Date</label>
+                        <input type="date" class="form-control" asp-for="UserDate" placeholder="Enter birth date">
+                        <span asp-validation-for="UserDate" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="UserImage" class="form-label small text-muted">Image</label>
+                        <input type="file" class="form-control" asp-for="UserImage" placeholder="Enter birth date">
+                        <span asp-validation-for="UserImage" class="text-danger small"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="CategoryId" class="form-label small text-muted">Department Name</label>
+                        <select class="form-select" asp-for="CategoryId" asp-items="@(new SelectList(ViewBag.Category ?? new List<Category>(), "CategoryId", "CategoryName"))">
+                            <option value="">-- Select Department --</option>
+                        </select>
+                        <span asp-validation-for="CategoryId" class="text-danger small"></span>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button type="submit" class="btn btn-success btn-block">Create Author</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+    @section Scripts {
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+    }
+</body>
+
+</html>

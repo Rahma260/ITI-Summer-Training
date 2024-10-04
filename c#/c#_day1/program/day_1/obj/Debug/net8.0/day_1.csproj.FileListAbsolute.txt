@@ -1,0 +1,28 @@
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.AssemblyInfoInputs.cache
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.AssemblyInfo.cs
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.csproj.CoreCompileInputs.cache
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\bin\Debug\net8.0\day_1.exe
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\bin\Debug\net8.0\day_1.deps.json
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\bin\Debug\net8.0\day_1.runtimeconfig.json
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\bin\Debug\net8.0\day_1.dll
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\bin\Debug\net8.0\day_1.pdb
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.dll
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\refint\day_1.dll
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.pdb
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\day_1.genruntimeconfig.cache
+C:\Users\20114\Desktop\ITI\Day 7\program\day_1\obj\Debug\net8.0\ref\day_1.dll
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\bin\Debug\net8.0\day_1.exe
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\bin\Debug\net8.0\day_1.deps.json
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\bin\Debug\net8.0\day_1.runtimeconfig.json
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\bin\Debug\net8.0\day_1.dll
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\bin\Debug\net8.0\day_1.pdb
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.AssemblyInfoInputs.cache
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.AssemblyInfo.cs
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.csproj.CoreCompileInputs.cache
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.dll
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\refint\day_1.dll
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.pdb
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\day_1.genruntimeconfig.cache
+C:\Users\20114\Desktop\ITI\c#_day1\program\day_1\obj\Debug\net8.0\ref\day_1.dll

@@ -1,0 +1,136 @@
+﻿@using program.Models.Entities
+@* @{
+    SelectList selectListItems = new SelectList(ViewBag.ListOfCompanies, "CompanyId", "CompanyName");
+}
+@model Employee
+
+<h1>Add New Employee</h1>
+<form method="post" asp-action="Create" asp-controller="Employee">
+
+    <fieldset>
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div>
+            <label asp-for="EmployeeName" class="form-label mt-4"></label>
+            <input asp-for="EmployeeName" type="text" class="form-control">
+            <span asp-validation-for="EmployeeName" class="text-danger"></span>
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeeAge"></label>
+            <input type="text" class="form-control" asp-for="EmployeeAge">
+            <span asp-validation-for="EmployeeAge" class="text-danger"></span>
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeeSalary"></label>
+            <input type="text" class="form-control" asp-for="EmployeeSalary">
+            <span asp-validation-for="EmployeeSalary" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeeAddress"></label>
+            <input type="text" class="form-control" asp-for="EmployeeAddress">
+            <span asp-validation-for="EmployeeAddress" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeeEmail"></label>
+            <input type="text" class="form-control" asp-for="EmployeeEmail">
+            <span asp-validation-for="EmployeeEmail" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeePhone"></label>
+            <input type="text" class="form-control" asp-for="EmployeePhone">
+            <span asp-validation-for="EmployeePhone" class="text-danger"></span>
+
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="EmployeeImage"></label>
+            <input type="text" class="form-control" asp-for="EmployeeImage">
+            <span asp-validation-for="EmployeeImage" class="text-danger"></span>
+        </div>
+        <div>
+            <label class="form-label mt-4" asp-for="CompanyId">Company Name</label>
+            <select asp-items="selectListItems" class="form-select" asp-for="CompanyId"></select>
+        </div>
+
+
+        <input type="submit" value="Create" class="btn btn-primary mt-5" />
+    </fieldset>
+</form>
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}  *@
+@{
+    SelectList selectListItems = new SelectList(ViewBag.ListOfCompanies, "CompanyId", "CompanyName");
+}
+@model Employee
+
+<div class="container mt-5 d-flex justify-content-center">
+    <div class="card shadow-lg p-4" style="width: 60%; background-color: #f8f9fa;">
+        <h1 class="text-center text-primary mb-4">Add New Employee</h1>
+        <form method="post" asp-action="Create" asp-controller="Employee">
+            <fieldset>
+                <div asp-validation-summary="All" class="alert alert-danger" style="display: none;"></div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeName" class="form-label small text-muted">Employee Name</label>
+                    <input asp-for="EmployeeName" type="text" class="form-control" placeholder="Enter employee's name">
+                    <span asp-validation-for="EmployeeName" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeAge" class="form-label small text-muted">Employee Age</label>
+                    <input type="text" class="form-control" asp-for="EmployeeAge" placeholder="Enter employee's age">
+                    <span asp-validation-for="EmployeeAge" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeSalary" class="form-label small text-muted">Employee Salary</label>
+                    <input type="text" class="form-control" asp-for="EmployeeSalary" placeholder="Enter employee's salary">
+                    <span asp-validation-for="EmployeeSalary" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeAddress" class="form-label small text-muted">Employee Address</label>
+                    <input type="text" class="form-control" asp-for="EmployeeAddress" placeholder="Enter employee's address">
+                    <span asp-validation-for="EmployeeAddress" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeEmail" class="form-label small text-muted">Employee Email</label>
+                    <input type="email" class="form-control" asp-for="EmployeeEmail" placeholder="Enter employee's email">
+                    <span asp-validation-for="EmployeeEmail" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeePhone" class="form-label small text-muted">Employee Phone</label>
+                    <input type="text" class="form-control" asp-for="EmployeePhone" placeholder="Enter employee's phone number">
+                    <span asp-validation-for="EmployeePhone" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="EmployeeImage" class="form-label small text-muted">Employee Image</label>
+                    <input type="text" class="form-control" asp-for="EmployeeImage" placeholder="Enter employee's image URL">
+                    <span asp-validation-for="EmployeeImage" class="text-danger small"></span>
+                </div>
+
+                <div mp-3>
+                    <label class="form-label small text-muted" asp-for="CompanyId">Company Name</label>
+                    <select asp-items="selectListItems" class="form-select" asp-for="CompanyId"></select>
+                    <span asp-validation-for="CompanyId" class="text-danger small"></span>
+
+                </div>
+
+                <div class="d-grid gap-2" style="margin-top:3vh">
+                    <input type="submit" value="Create" class="btn btn-primary btn-block">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
