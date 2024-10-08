@@ -1,0 +1,14 @@
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.AssemblyInfoInputs.cache
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.AssemblyInfo.cs
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.csproj.CoreCompileInputs.cache
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\bin\Debug\net8.0\test_exam.exe
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\bin\Debug\net8.0\test_exam.deps.json
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\bin\Debug\net8.0\test_exam.runtimeconfig.json
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\bin\Debug\net8.0\test_exam.dll
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\bin\Debug\net8.0\test_exam.pdb
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.dll
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\refint\test_exam.dll
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.pdb
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\test_exam.genruntimeconfig.cache
+C:\Users\20114\Desktop\ITI\C#\test_exam\test_exam\obj\Debug\net8.0\ref\test_exam.dll
