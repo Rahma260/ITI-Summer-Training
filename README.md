@@ -134,15 +134,6 @@ All tasks and projects are my own implementations unless otherwise stated.
 
 ---
 
-## 📬 Contact
-
-**Rahma Khaled**
-📧 [rahmakh248@gmail.com](mailto:rahmakh248@gmail.com)
-🔗 [LinkedIn](https://www.linkedin.com/in/rahma-khaled260)
-🔗 [GitHub](https://github.com/Rahma260)
-
----
-
 > ⭐ If you like this repository or found it helpful, feel free to star it!
 
 ```
